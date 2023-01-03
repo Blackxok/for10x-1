@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
 :root {
     --oq: #ffffff;
     --blue: #3D8BE4;
+
+
+    /* shadow */
+    --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 * {
@@ -9,9 +15,7 @@
     padding: 0;
 }
 
-body {
-    background: red;
-}
+body {}
 
 .header {
     width: 100%;
@@ -19,7 +23,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--oq)
+    background-color: var(--oq);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-shadow: var(--shadow1)
 }
 
 .header-menu {
@@ -27,7 +34,11 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.header-menu 
+
+.header-menu>* {
+    margin-left: 30px;
+    cursor: pointer;
+}
 
 .logo {
     width: 90px;
@@ -38,9 +49,10 @@ body {
     border: 1px solid #3D8BE4;
     border-radius: 3px;
     text-decoration: none;
+    padding: 10px;
 }
 
-.video-lesson {}
+/* .video-lesson {}
 
 .tests {}
 
@@ -48,13 +60,24 @@ body {
 
 .blog {}
 
-.obUss {}
+.obUss {} 
 
-.phone {}
+.phone {}*/
 
-.register {}
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #bbbeee;
+}
 
-.fa-solid {}
+.sign_icon {
+    margin-right: 10px;
+}
 
 .fa-arrow-right-to-bracket {}
 

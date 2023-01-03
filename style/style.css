@@ -46,7 +46,8 @@ body {}
 
 .barcha-kurslar {
     box-sizing: border-box;
-    border: 1px solid #3D8BE4;
+    border: 1px solid var(--blue);
+    color: var(--blue);
     border-radius: 3px;
     text-decoration: none;
     padding: 10px;
@@ -65,6 +66,7 @@ body {}
 .phone {}*/
 
 .register {
+    color: var(--blue);
     display: flex;
     align-items: center;
     justify-content: space-between;

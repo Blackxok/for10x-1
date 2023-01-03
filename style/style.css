@@ -1,0 +1,61 @@
+:root {
+    --oq: #ffffff;
+    --blue: #3D8BE4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: red;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--oq)
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu 
+
+.logo {
+    width: 90px;
+}
+
+.barcha-kurslar {
+    box-sizing: border-box;
+    border: 1px solid #3D8BE4;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.video-lesson {}
+
+.tests {}
+
+.low-price {}
+
+.blog {}
+
+.obUss {}
+
+.phone {}
+
+.register {}
+
+.fa-solid {}
+
+.fa-arrow-right-to-bracket {}
+
+.sign {}

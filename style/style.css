@@ -7,6 +7,7 @@
 
     /* shadow */
     --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --ff_1: 'Open Sans', sans-serif;
 }
 
 * {
@@ -15,7 +16,9 @@
     padding: 0;
 }
 
-body {}
+body {
+    font-family: var(--ff_1);
+}
 
 .header {
     width: 100%;
@@ -81,6 +84,66 @@ body {}
     margin-right: 10px;
 }
 
-.fa-arrow-right-to-bracket {}
+/* -------------------------------------------
+              HOME SECTION               
+---------------------------------------------- */
+.container {
+    padding: 100px 130px;
+}
 
-.sign {}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 73%;
+}
+
+.small_t {
+    font-size: 17px;
+}
+
+.big_t {
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.buttons {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b_1 {
+    border: 1px solid var(--blue);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.b_2 {
+    background-color: green;
+}
+
+.illu {}
+
+.illu_content {}
+
+.border_dash {}
+
+.show_num {}
+
+.num_1 {}
+
+.num_t {}
+
+.num_2 {}
+
+.num_3 {}

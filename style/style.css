@@ -36,6 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .header-menu>* {
@@ -53,7 +54,7 @@ body {
     color: var(--blue);
     border-radius: 3px;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px 37px;
 }
 
 /* .video-lesson {}
@@ -77,7 +78,6 @@ body {
     padding: 10px;
     border-radius: 3px;
     cursor: pointer;
-    border: 1px solid #bbbeee;
 }
 
 .sign_icon {
@@ -99,6 +99,7 @@ body {
 
 .text {
     width: 73%;
+    z-index: 100;
 }
 
 .small_t {
@@ -116,25 +117,58 @@ body {
     margin-top: 35px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .b_1 {
     border: 1px solid var(--blue);
+    color: var(--blue);
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
+    padding: 18px 34px;
+    margin-right: 40px;
+}
+
+.b_1 .active {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--oq);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 34px;
 }
 
 .b_2 {
-    background-color: green;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 34px;
 }
 
-.illu {}
+.illu {
+    z-index: 10;
+    position: absolute;
+    width: 629px;
+    height: 415px;
+    left: 830px;
+    top: 193px;
+}
 
 .illu_content {}
+
+.illu_content img {
+    width: 530px;
+    height: 315px;
+    /* position: absolute; */
+
+}
 
 .border_dash {}
 

@@ -88,6 +88,7 @@ body {
               HOME SECTION               
 ---------------------------------------------- */
 .container {
+    position: relative;
     padding: 100px 130px;
 }
 
@@ -99,7 +100,6 @@ body {
 
 .text {
     width: 73%;
-    z-index: 100;
 }
 
 .small_t {
@@ -107,10 +107,12 @@ body {
 }
 
 .big_t {
+    position: relative;
     font-style: normal;
     font-size: 50px;
     font-weight: 600;
     line-height: 130%;
+    z-index: 2;
 }
 
 .buttons {
@@ -153,31 +155,43 @@ body {
 }
 
 .illu {
-    z-index: 10;
     position: absolute;
-    width: 629px;
-    height: 415px;
-    left: 830px;
-    top: 193px;
+    z-index: 1;
+    /* margin-right: 130px; */
+    left: 700px;
+    top: 90px;
 }
 
 .illu_content {}
 
 .illu_content img {
-    width: 530px;
-    height: 315px;
-    /* position: absolute; */
 
+    width: 510px;
+    height: 350px;
 }
 
-.border_dash {}
+/* .border_dash {} */
 
-.show_num {}
+.show_num {
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+}
 
-.num_1 {}
+.show_num>* {
+    text-align: center;
+}
 
-.num_t {}
+.num {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 130%;
+}
 
-.num_2 {}
+.num_t {
+    margin-top: 25px;
+}
 
-.num_3 {}
+/* -------------------------------------------
+              HOME SECTION    END           
+---------------------------------------------- */

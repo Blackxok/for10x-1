@@ -11,6 +11,12 @@ new Swiper(".swiper", {
         // klick
         clickable: true,
     },
+    // kalonka mayda bo'sa
+    watchOverflow: true,
 
+    // nechta kalonka
     slidesPerView: 3,
+
+    // kalonkalar orasi
+    spaceBetween: 10,
 });

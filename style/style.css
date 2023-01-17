@@ -196,3 +196,11 @@ body {
 /* -------------------------------------------
               HOME SECTION    END           
 ---------------------------------------------- */
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-slide {
+    text-align: center;
+}

@@ -19,4 +19,9 @@ new Swiper(".swiper", {
 
     // kalonkalar orasi
     spaceBetween: 10,
+
+    // scroll mishka
+    mousewheel: {
+        sesitivity: 3,
+    },
 });

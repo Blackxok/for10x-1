@@ -163,7 +163,7 @@ body {
     top: 90px;
 }
 
-.illu_content {}
+/* .illu_content {} */
 
 .illu_content img {
 
@@ -196,12 +196,89 @@ body {
 /* -------------------------------------------
               HOME SECTION    END           
 ---------------------------------------------- */
-.swiper {
-    width: 600px;
-    height: 300px;
+/* -------------------------------------------
+              KURCEC SECTION    START           
+---------------------------------------------- */
+.kurses_section {
+    margin: 130px;
+    border: 2px solid seagreen;
 }
 
-.swiper-slide {
+.kurses_top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.kurses_title {
+    margin: 30px;
+}
+
+.section_nav {
+    margin-bottom: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .nav_1 {} */
+
+.kurses_title {
+    width: 100%;
     text-align: center;
-    background-color: red;
+}
+
+/* kurses slider */
+.kurses_bottom {
+    border: 2px solid salmon;
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    border: 2px solid darkcyan;
+}
+
+.swiper-wrapper {
+    padding: 40px 0px;
+}
+
+.lesson_img img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 25px !important;
+    position: absolute;
+    top: 220px;
+}
+
+/* LESSON BOX */
+.lesson_info {
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.lesson_title {
+    text-align: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.lesson_text {
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
 }

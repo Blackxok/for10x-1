@@ -201,7 +201,6 @@ body {
 ---------------------------------------------- */
 .kurses_section {
     margin: 130px;
-    border: 2px solid seagreen;
 }
 
 .kurses_top {
@@ -236,13 +235,11 @@ body {
 
 /* kurses slider */
 .kurses_bottom {
-    border: 2px solid salmon;
     width: 100%;
 }
 
 .slide {
     width: 100%;
-    border: 2px solid darkcyan;
 }
 
 .swiper-wrapper {
@@ -264,7 +261,6 @@ body {
 /* LESSON BOX */
 .lesson_info {
     padding: 20px;
-    border: 2px solid red;
 }
 
 .lesson_title {

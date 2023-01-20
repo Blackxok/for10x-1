@@ -261,7 +261,7 @@ body {
 .swiper-button-next::after {
     font-size: 25px !important;
     position: absolute;
-    top: 250px;
+    top: 260px;
 }
 
 /* LESSON BOX */
@@ -306,4 +306,6 @@ body {
     background: transparent;
     border: 1px solid var(--blue);
     border-radius: 3px;
+    padding: 8px 25px;
+    color: var(--blue);
 }

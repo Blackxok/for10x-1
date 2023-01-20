@@ -246,6 +246,12 @@ body {
     padding: 40px 0px;
 }
 
+.swiper-slide {
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
 .lesson_img img {
     border-radius: 12px 12px 0 0;
     width: 100%;
@@ -255,12 +261,12 @@ body {
 .swiper-button-next::after {
     font-size: 25px !important;
     position: absolute;
-    top: 220px;
+    top: 250px;
 }
 
 /* LESSON BOX */
 .lesson_info {
-    padding: 5px 20px;
+    padding: 5px 20px 22px 20px;
 }
 
 .lesson_title {
@@ -279,4 +285,25 @@ body {
     font-size: 20px;
     line-height: 130%;
     padding-bottom: 30px;
+}
+
+.lesson_time {
+    text-align: start;
+}
+
+/* .bottom_button {
+    text-align: end;
+} */
+
+.lesson_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.bottom_button {
+    background: transparent;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
 }

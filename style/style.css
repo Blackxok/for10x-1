@@ -260,7 +260,7 @@ body {
 
 /* LESSON BOX */
 .lesson_info {
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 
 .lesson_title {
@@ -269,6 +269,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
+    padding-bottom: 20px;
 }
 
 .lesson_text {
@@ -277,4 +278,5 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
+    padding-bottom: 30px;
 }

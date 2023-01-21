@@ -308,4 +308,30 @@ body {
     border-radius: 3px;
     padding: 8px 25px;
     color: var(--blue);
+    cursor: pointer;
 }
+
+/* -------------------------------------------
+              KURCEC SECTION END           
+---------------------------------------------- */
+/* -------------------------------------------
+              TARIFLAR SECTION START           
+---------------------------------------------- */
+
+.tarif_container {}
+
+.tarif_title {}
+
+.tarif_tariflar {}
+
+.tarif_box {}
+
+.box_icon {}
+
+.box_title {}
+
+.box_content {}
+
+/* -------------------------------------------
+              TARIFLAR SECTION END           
+---------------------------------------------- */

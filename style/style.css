@@ -3,9 +3,9 @@
 :root {
     --oq: #ffffff;
     --blue: #3D8BE4;
-    --bigBg: #F6F8F9
-        /* shadow */
-        --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --bigBg: #F6F8F9;
+    /* shadow */
+    --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --ff_1: 'Open Sans', sans-serif;
 }
 
@@ -201,7 +201,7 @@ body {
 /* -------------------------------------------
               KURCEC SECTION    START           
 ---------------------------------------------- */
-.kurses_section {
+.kurses_container {
     margin: 130px;
 }
 
@@ -320,7 +320,7 @@ body {
               TARIFLAR SECTION START           
 ---------------------------------------------- */
 
-.tarif_container {
+.tarif_section {
     margin: 130px;
 }
 
@@ -371,4 +371,42 @@ body {
 
 /* -------------------------------------------
               TARIFLAR SECTION END           
+---------------------------------------------- */
+
+/* -------------------------------------------
+              LOW SECTION START            
+---------------------------------------------- */
+
+/* .low_section {} */
+
+.low_container {
+    margin: 130px;
+}
+
+
+.low_row_1 {
+    border: 3px solid red;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.low_detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.low_title {}
+
+.low_row_2 {}
+
+.show_detal {}
+
+.low_row_3 {}
+
+/* -------------------------------------------
+              LOW SECTION END               
 ---------------------------------------------- */

@@ -427,8 +427,34 @@ body {
 
 }
 
-.low_row_3 .swiper-slide {
-    color: red;
+.low_row_3 .lesson_img {
+    position: relative;
+}
+
+.low_row_3 .lesson_img::after {
+    position: absolute;
+    content: "Low Price";
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: max-content;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: end;
+    background-color: var(--oq);
+    z-index: 1;
+}
+
+.low_row_3 .lesson_img::before {
+    position: absolute;
+    content: "$";
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    z-index: 2;
 }
 
 /* -------------------------------------------

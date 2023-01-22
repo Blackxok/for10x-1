@@ -21,7 +21,7 @@ new Swiper(".swiper", {
     spaceBetween: 10,
 
     // scroll mishka
-    mousewheel: {
-        sesitivity: 3,
-    },
+    // mousewheel: {
+    //     sesitivity: 3,
+    // },
 });

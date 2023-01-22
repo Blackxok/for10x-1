@@ -90,9 +90,11 @@ body {
 /* -------------------------------------------
               HOME SECTION               
 ---------------------------------------------- */
+
 .container {
+    margin-bottom: 110px;
     position: relative;
-    padding: 100px 130px;
+    padding: 90px 130px;
 }
 
 .row {
@@ -202,7 +204,8 @@ body {
               KURCEC SECTION    START           
 ---------------------------------------------- */
 .kurses_container {
-    margin: 130px;
+    margin-top: 100px;
+    padding: 50px 130px;
 }
 
 .kurses_top {
@@ -240,6 +243,10 @@ body {
     width: 100%;
 }
 
+.swiper {
+    padding: 20px 10px !important;
+}
+
 .slide {
     width: 100%;
 }
@@ -263,7 +270,7 @@ body {
 .swiper-button-next::after {
     font-size: 25px !important;
     position: absolute;
-    top: 260px;
+    top: 280px;
 }
 
 /* LESSON BOX */
@@ -321,7 +328,8 @@ body {
 ---------------------------------------------- */
 
 .tarif_section {
-    margin: 130px;
+    background-color: var(--oq);
+    padding: 50px 110px;
 }
 
 .tarif_title {
@@ -380,16 +388,16 @@ body {
 /* .low_section {} */
 
 .low_container {
-    padding: 130px;
+    padding: 50px 110px;
 }
 
 
 .low_row_1 {
-    border: 3px solid red;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 130%;
+    margin-bottom: 50px;
 }
 
 .low_detail {
@@ -397,15 +405,31 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
+    width: 50%;
+    text-align: start;
 }
 
-.low_title {}
+/* .low_title {} */
 
-.low_row_2 {}
+.low_row_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 50px; */
+}
 
-.show_detal {}
+.show_detail {
+    border: none;
+    padding: 18px;
+    background: var(--blue);
+    border-radius: 6px;
+    color: var(--oq);
 
-.low_row_3 {}
+}
+
+.low_row_3 .swiper-slide {
+    color: red;
+}
 
 /* -------------------------------------------
               LOW SECTION END               

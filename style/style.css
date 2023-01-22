@@ -3,10 +3,9 @@
 :root {
     --oq: #ffffff;
     --blue: #3D8BE4;
-
-
-    /* shadow */
-    --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --bigBg: #F6F8F9
+        /* shadow */
+        --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --ff_1: 'Open Sans', sans-serif;
 }
 
@@ -18,6 +17,9 @@
 
 body {
     font-family: var(--ff_1);
+    background-color: var(--bigBg);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -318,19 +320,54 @@ body {
               TARIFLAR SECTION START           
 ---------------------------------------------- */
 
-.tarif_container {}
+.tarif_container {
+    margin: 130px;
+}
 
-.tarif_title {}
+.tarif_title {
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
 
-.tarif_tariflar {}
+.tarif_tariflar {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
 
-.tarif_box {}
+.tarif_box {
+    width: 450px;
+    height: max-content;
+    padding: 10px 0;
+    margin: 20px 30px 30px 5px;
+}
 
-.box_icon {}
+.box_title img {
+    width: 46px;
+    height: 41px;
+}
 
-.box_title {}
+.box_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
-.box_content {}
+.box_name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.box_name {
+    margin-left: 10px;
+}
+
+.box_content {
+    margin-left: 60px;
+}
 
 /* -------------------------------------------
               TARIFLAR SECTION END           

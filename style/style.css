@@ -460,3 +460,14 @@ body {
 /* -------------------------------------------
               LOW SECTION END               
 ---------------------------------------------- */
+.low_row_3 .lesson_img::before {
+    position: absolute;
+    content: "$";
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    z-index: 2;
+}

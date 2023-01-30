@@ -481,16 +481,29 @@ body {
 .col_1 {
     position: relative;
     background-color: forestgreen;
-
+    width: 60%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
 }
 
 .col_2 {
     position: relative;
     background-color: gold;
+    width: 570px;
+    height: 302px;
 }
 
 .col {
     padding-bottom: 30px;
+}
+
+.col_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .lex_boxes .swiper-button-prev,

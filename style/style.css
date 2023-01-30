@@ -10,12 +10,18 @@
 }
 
 .button {
+    width: 180px;
+    height: 60px;
     background: transparent;
     border: 1px solid var(--blue);
     border-radius: 3px;
     padding: 8px 25px;
     color: var(--blue);
     cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 * {

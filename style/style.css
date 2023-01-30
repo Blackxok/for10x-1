@@ -244,7 +244,7 @@ body {
 }
 
 .swiper {
-    padding: 20px 10px !important;
+    padding: 60px 10px !important;
 }
 
 .slide {
@@ -274,9 +274,9 @@ body {
 }
 
 /* LESSON BOX */
-.lesson_info {
+/* .lesson_info {
     padding: 5px 20px 22px 20px;
-}
+} */
 
 .lesson_title {
     text-align: start;
@@ -460,3 +460,24 @@ body {
 /* -------------------------------------------
               LOW SECTION END               
 ---------------------------------------------- */
+.lexvid_section {
+    width: 100%;
+    height: 600px;
+}
+
+.lex_container {
+    padding: 0 110px;
+}
+
+.lex_boxes .swiper-slide{
+background-color: red;
+}
+
+.col {
+    padding-bottom: 30px;
+}
+
+.lex_boxes .swiper-button-prev,
+.lex_boxes .swiper-button-next {
+    top: 35%;
+}

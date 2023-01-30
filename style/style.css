@@ -487,12 +487,13 @@ body {
 .lex_boxes .swiper-slide {
     border-radius: 0 !important;
     width: 100% !important;
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: none;
-    box-shadow: none;
-    background: transparent !important;
 }
 
 .col_1 {

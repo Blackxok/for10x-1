@@ -15,7 +15,7 @@ new Swiper(".swiper", {
     watchOverflow: true,
 
     // nechta kalonka
-    slidesPerView: 3,
+    slidesPerView: 1,
 
     // kalonkalar orasi
     spaceBetween: 10,
@@ -24,4 +24,8 @@ new Swiper(".swiper", {
     // mousewheel: {
     //     sesitivity: 3,
     // },
+
+    hashNavigation: {
+        watchState: true,
+    },
 });

@@ -472,6 +472,7 @@ body {
 .lex_boxes .swiper-slide {
     border-radius: 0 !important;
     background-color: red;
+    width: 100% !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -480,6 +481,7 @@ body {
 .col_1 {
     position: relative;
     background-color: forestgreen;
+
 }
 
 .col_2 {

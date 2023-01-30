@@ -480,4 +480,5 @@ body {
 .lex_boxes .swiper-button-prev,
 .lex_boxes .swiper-button-next {
     top: 35%;
+    color: red;
 }

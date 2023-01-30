@@ -9,6 +9,15 @@
     --ff_1: 'Open Sans', sans-serif;
 }
 
+.button {
+    background: transparent;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+    padding: 8px 25px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -471,17 +480,19 @@ body {
 
 .lex_boxes .swiper-slide {
     border-radius: 0 !important;
-    background-color: red;
     width: 100% !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
+    box-shadow: none;
+    background: transparent !important;
 }
 
 .col_1 {
     position: relative;
-    background-color: forestgreen;
-    width: 60%;
+    width: 45%;
+    height: 302px;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -504,6 +515,12 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
+}
+
+.col_button {
+    margin: 60px 0 0 0;
+    color: var(--oq);
+    background-color: var(--blue);
 }
 
 .lex_boxes .swiper-button-prev,

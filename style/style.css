@@ -470,7 +470,21 @@ body {
 }
 
 .lex_boxes .swiper-slide {
+    border-radius: 0 !important;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col_1 {
+    position: relative;
+    background-color: forestgreen;
+}
+
+.col_2 {
+    position: relative;
+    background-color: gold;
 }
 
 .col {
@@ -480,5 +494,4 @@ body {
 .lex_boxes .swiper-button-prev,
 .lex_boxes .swiper-button-next {
     top: 35%;
-    color: red;
 }

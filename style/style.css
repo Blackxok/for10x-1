@@ -475,9 +475,13 @@ body {
 /* -------------------------------------------
               LOW SECTION END               
 ---------------------------------------------- */
+
+/* -------------------------------------------
+              LEX_VID SECTION START               
+---------------------------------------------- */
 .lexvid_section {
     width: 100%;
-    height: 600px;
+    height: 550px;
 }
 
 .lex_container {
@@ -532,4 +536,137 @@ body {
 .lex_boxes .swiper-button-prev,
 .lex_boxes .swiper-button-next {
     top: 35%;
+}
+
+/* -------------------------------------------
+              LEX_VID SECTION END               
+---------------------------------------------- */
+/* -------------------------------------------
+              UDO SECTION START               
+---------------------------------------------- */
+.udo_section {
+    width: 100%;
+    height: 500px;
+    background: var(--oq);
+}
+
+.udo_container {
+    padding: 20px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .col {}
+
+.udo_col_1 {} */
+
+.udotext_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.udo_texts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.udo_box {
+    margin: 50px 0;
+    flex: 50%;
+}
+
+.ubox_t {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+
+.u_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+}
+
+/* .udo_col_2 {} */
+
+.udo_img {
+    width: 417px;
+    height: 405px;
+}
+
+/* -------------------------------------------
+              UDO SECTION END               
+---------------------------------------------- */
+.popu_container {
+    padding: 50px 110px;
+}
+
+
+.popu_row_1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    margin-top: 50px;
+}
+
+.popu_detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    width: 50%;
+    text-align: start;
+}
+
+.popu_row_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show_detail_popu {
+    text-align: end;
+    border: none;
+    padding: 18px;
+    background: var(--blue);
+    border-radius: 6px;
+    color: var(--oq);
+
+}
+
+.popu_row_3 .lesson_img {
+    position: relative;
+}
+
+.popu_row_3 .lesson_img::after {
+    position: absolute;
+    content: "Low Price";
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: max-content;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: end;
+    background-color: var(--oq);
+    z-index: 1;
+}
+
+.popu_row_3 .lesson_img::before {
+    position: absolute;
+    content: "$";
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    z-index: 2;
 }

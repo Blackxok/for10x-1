@@ -674,16 +674,21 @@ body {
 
 
 .chen_less_section {
+    width: 100%;
+    height: 500px;
+    background: var(--oq);
 }
+
 .chen_less_container {
+    padding: 50px 110px;
 }
-.chen_less_col {
-}
-.ch_col_1 {
-}
-.button {
-}
-.ch_less_btn {
-}
-.ch_col_2 {
-}
+
+.chen_less_col {}
+
+.ch_col_1 {}
+
+.button {}
+
+.ch_less_btn {}
+
+.ch_col_2 {}

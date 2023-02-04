@@ -289,9 +289,9 @@ body {
 }
 
 /* LESSON BOX */
-/* .lesson_info {
+.lesson_info {
     padding: 5px 20px 22px 20px;
-} */
+}
 
 .lesson_title {
     text-align: start;
@@ -557,10 +557,6 @@ body {
     justify-content: space-between;
 }
 
-/* .col {}
-
-.udo_col_1 {} */
-
 .udotext_title {
     font-style: normal;
     font-weight: 600;
@@ -593,8 +589,6 @@ body {
     line-height: 140%;
 }
 
-/* .udo_col_2 {} */
-
 .udo_img {
     width: 417px;
     height: 405px;
@@ -606,7 +600,6 @@ body {
 .popu_container {
     padding: 50px 110px;
 }
-
 
 .popu_row_1 {
     font-style: normal;
@@ -645,7 +638,7 @@ body {
     position: relative;
 }
 
-.popu_row_3 .lesson_img::after {
+/* .popu_row_3 .lesson_img::after {
     position: absolute;
     content: "Low Price";
     top: 30px;
@@ -657,16 +650,23 @@ body {
     text-align: end;
     background-color: var(--oq);
     z-index: 1;
-}
+} */
 
 .popu_row_3 .lesson_img::before {
+    content: "";
+    background-image: url(../images/top_ico.jpg);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 25px;
+    width: 90px;
     position: absolute;
-    content: "$";
     top: 30px;
     left: 30px;
-    width: 30px;
-    text-align: center;
-    color: green;
-    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px;
     z-index: 2;
 }
+
+/* -------------------------------------------
+              UDO SECTION END               
+---------------------------------------------- */

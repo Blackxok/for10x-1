@@ -219,8 +219,7 @@ body {
 /* -------------------------------------------
               KURCEC SECTION    START           
 ---------------------------------------------- */
-.kurses_container {
-    margin-top: 100px;
+.kurses_container {                                                                                                  margin-top: 100px;
     padding: 50px 130px;
 }
 

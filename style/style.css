@@ -826,3 +826,57 @@ body {
 /* -------------------------------------------
               MENS SECTION END               
 ---------------------------------------------- */
+/* -------------------------------------------
+              LISE SECTION START
+---------------------------------------------- */
+
+.lise_section {
+    width: 100%;
+    height: 500px;
+    background: var(--oq);
+}
+
+.lise_container {
+    padding: 50px 110px;
+}
+
+.lise_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lise_col_1 * {
+    margin-bottom: 40px;
+}
+
+.lise_col_1 h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.lise_col_1 p {
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+.lise_btn {
+    background: var(--blue);
+}
+
+/*.l_col_2 {}*/
+
+.lise_col_2 img {
+    width: 470px;
+    height: 400px;
+}
+
+/* -------------------------------------------
+              CHEN_LESS SECTION END
+---------------------------------------------- */

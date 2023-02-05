@@ -2,97 +2,331 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <!-- css link -->
-    <link rel="stylesheet" href="./style/style.css">
+    <link href="./style/style.css" rel="stylesheet">
     <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
     <!-- swiper link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
     <title>for10x-1</title>
 </head>
 
 <body>
-    <!-- Home start -->
-    <div class="home_section">
-        <nav class="nav">
-            <div class="nav-menu">
-                <div><img src="./images/Без имени-1.jpg" alt="logo" class="logo"></div>
-                <a href="#" class="barcha-kurslar">Все курсы</a>
-                <div class="video-lesson">Видеолекции</div>
-                <div class="tests">Тесты</div>
-                <div class="low-price">Low Price</div>
-                <div class="blog">Блог</div>
-                <div class="obUss">Об организации</div>
-                <div class="phone">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
+<!-- Home start -->
+<div class="home_section">
+    <nav class="nav">
+        <div class="nav-menu">
+            <div><img alt="logo" class="logo" src="./images/Без имени-1.jpg"></div>
+            <a class="barcha-kurslar" href="#">Все курсы</a>
+            <div class="video-lesson">Видеолекции</div>
+            <div class="tests">Тесты</div>
+            <div class="low-price">Low Price</div>
+            <div class="blog">Блог</div>
+            <div class="obUss">Об организации</div>
+            <div class="phone">
+                <svg fill="none" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path
                             d="M13.2477 14.11L14.9277 12.43C15.154 12.2066 15.4403 12.0536 15.7518 11.9897C16.0634 11.9258 16.3867 11.9537 16.6827 12.07L18.7302 12.8875C19.0293 13.0089 19.2858 13.2162 19.4673 13.4831C19.6488 13.75 19.7473 14.0647 19.7502 14.3875V18.1375C19.7485 18.3571 19.7023 18.5741 19.6145 18.7754C19.5267 18.9766 19.3991 19.1581 19.2393 19.3087C19.0796 19.4594 18.891 19.5761 18.6849 19.652C18.4788 19.7278 18.2595 19.7612 18.0402 19.75C3.69272 18.8575 0.797723 6.70753 0.250222 2.05753C0.224807 1.82918 0.248028 1.59804 0.318359 1.37931C0.388689 1.16058 0.504534 0.959225 0.658273 0.788483C0.812012 0.61774 1.00016 0.481484 1.21034 0.388679C1.42052 0.295873 1.64797 0.248621 1.87772 0.250031H5.50022C5.82348 0.250987 6.13906 0.348631 6.40637 0.530403C6.67368 0.712174 6.8805 0.969761 7.00022 1.27003L7.81772 3.31753C7.93791 3.61233 7.96858 3.93601 7.90588 4.24814C7.84319 4.56027 7.68992 4.847 7.46522 5.07253L5.78522 6.75253C5.78522 6.75253 6.75272 13.3 13.2477 14.11Z"
-                            fill="black" />
+                            fill="black"/>
 
-                    </svg>
-                    <span>+998911035678</span>
-                </div>
+                </svg>
+                <span>+998911035678</span>
             </div>
-            <div class="register">
-                <div class="sign_icon"><i class="fa-solid fa-arrow-right-to-bracket"></i></div>
-                <div class="sign">Войти / зарегистрироваться</div>
-            </div>
-        </nav>
-        <div class="header" id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="text">
-                        <div class="small_t">Университет дополнительного профессионального образования</div>
-                        <h1 class="big_t">Повышение квалификации и профессиональная переподготовка</h1>
-                        <div class="buttons">
-                            <div class="b_1">Выбрать курс</div>
-                            <div class="b_2">Консультация</div>
-                        </div>
+        </div>
+        <div class="register">
+            <div class="sign_icon"><i class="fa-solid fa-arrow-right-to-bracket"></i></div>
+            <div class="sign">Войти / зарегистрироваться</div>
+        </div>
+    </nav>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="text">
+                    <div class="small_t">Университет дополнительного профессионального образования</div>
+                    <h1 class="big_t">Повышение квалификации и профессиональная переподготовка</h1>
+                    <div class="buttons">
+                        <div class="b_1">Выбрать курс</div>
+                        <div class="b_2">Консультация</div>
                     </div>
-                    <div class="illu">
-                        <div class="illu_content">
-                            <img src="./images/illustration.png" alt="illustration">
-                            <span class="border_dash"></span>
-                        </div>
-                        <div class="show_num">
-                            <div class="num">253</div>
-                            <div class="num">54</div>
-                            <div class="num">7</div>
-                            <span class="num_t">lorem</span>
-                            <span class="num_t">lorem</span>
-                            <span class="num_t">lorem</span>
-                        </div>
+                </div>
+                <div class="illu">
+                    <div class="illu_content">
+                        <img alt="illustration" src="./images/illustration.png">
+                        <span class="border_dash"></span>
+                    </div>
+                    <div class="show_num">
+                        <div class="num">253</div>
+                        <div class="num">54</div>
+                        <div class="num">7</div>
+                        <span class="num_t">lorem</span>
+                        <span class="num_t">lorem</span>
+                        <span class="num_t">lorem</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Home end -->
+</div>
+<!-- Home end -->
 
-    <!--------------------------------------------------------->
+<!--------------------------------------------------------->
 
-    <!-- Curces start -->
-    <div class="kurses_section">
-        <div class="kurses_container">
-            <div class="row kurses_top">
-                <div class="kurses_title">
-                    <h1>Найди то, что тебе нужно</h1>
-                </div>
-                <div class="section_nav">
-                    <div class="nav_1">Все курсы</div>
-                    <div class="nav_1">Педагогика</div>
-                    <div class="nav_1">Психология</div>
-                    <div class="nav_1">Медицина</div>
-                    <div class="nav_1">Юриспруденция</div>
-                    <div class="nav_1">Бизнес</div>
-                    <div class="nav_1">Экономика</div>
+<!-- Curces start -->
+<div class="kurses_section">
+    <div class="kurses_container">
+        <div class="row kurses_top">
+            <div class="kurses_title">
+                <h1>Найди то, что тебе нужно</h1>
+            </div>
+            <div class="section_nav">
+                <div class="nav_1">Все курсы</div>
+                <div class="nav_1">Педагогика</div>
+                <div class="nav_1">Психология</div>
+                <div class="nav_1">Медицина</div>
+                <div class="nav_1">Юриспруденция</div>
+                <div class="nav_1">Бизнес</div>
+                <div class="nav_1">Экономика</div>
+            </div>
+        </div>
+        <div class="row kurses_bottom">
+            <div class="slide">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="lesson">
+                                <div class="lesson_img">
+                                    <img alt="lesson_img" src="./images/lesson_img_1.jpg">
+                                </div>
+                                <div class="lesson_info">
+                                    <p class="lesson_title">Педагогика</p>
+                                    <div class="lesson_text">
+                                        Педагог высшего образования
+                                        по программам подготовки
+                                        кадров высшей квалификации
+                                    </div>
+                                    <div class="lesson_bottom">
+                                        <!-- <i></i> -->
+                                        <span>от 250 ак. ч.</span>
+                                        <button class="bottom_button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lesson">
+                                <div class="lesson_img">
+                                    <img alt="lesson_img" src="./images/lesson_img_2.jpg">
+                                </div>
+                                <div class="lesson_info">
+                                    <p class="lesson_title">Медицина</p>
+                                    <div class="lesson_text">
+                                        Педагог высшего образования
+                                        по программам подготовки
+                                        кадров высшей квалификации
+                                    </div>
+                                    <div class="lesson_bottom">
+                                        <!-- <i></i> -->
+                                        <span class="lesson_time">от 250 ак. ч.</span>
+                                        <button class="bottom_button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lesson">
+                                <div class="lesson_img">
+                                    <img alt="lesson_img" src="./images/lesson_img_3.jpg">
+                                </div>
+                                <div class="lesson_info">
+                                    <p class="lesson_title">Юриспруденция</p>
+                                    <div class="lesson_text">
+                                        Педагог высшего образования
+                                        по программам подготовки
+                                        кадров высшей квалификации
+                                    </div>
+                                    <div class="lesson_bottom">
+                                        <!-- <i></i> -->
+                                        <span>от 250 ак. ч.</span>
+                                        <button class="bottom_button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lesson">
+                                <div class="lesson_img">
+                                    <img alt="lesson_img" src="./images/lesson_img_1.jpg">
+                                </div>
+                                <div class="lesson_info">
+                                    <p class="lesson_title">Педагогика</p>
+                                    <div class="lesson_text">
+                                        Педагог высшего образования
+                                        по программам подготовки
+                                        кадров высшей квалификации
+                                    </div>
+                                    <div class="lesson_bottom">
+                                        <!-- <i></i> -->
+                                        <span>от 250 ак. ч.</span>
+                                        <button class="bottom_button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lesson">
+                                <div class="lesson_img">
+                                    <img alt="lesson_img" src="./images/lesson_img_2.jpg">
+                                </div>
+                                <div class="lesson_info">
+                                    <p class="lesson_title">Бизнес</p>
+                                    <div class="lesson_text">
+                                        Педагог высшего образования
+                                        по программам подготовки
+                                        кадров высшей квалификации
+                                    </div>
+                                    <div class="lesson_bottom">
+                                        <!-- <i></i> -->
+                                        <span>от 250 ак. ч.</span>
+                                        <button class="bottom_button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Curces end -->
+
+<!--------------------------------------------------------->
+
+<!-- tariflar start -->
+<div class="tarif_section">
+    <div class="tarif_container">
+        <div class="tarif_title">
+            <h3>Преимущества УДПО</h3>
+        </div>
+        <div class="tarif_tariflar">
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico1.jpg">
+                    <div class="box_name">Онлайн-обучение</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico2.jpg">
+                    <div class="box_name">Сами подготовим все документыs</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico3.jpg">
+                    <div class="box_name">Ускоренное обучение</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico4.jpg">
+                    <div class="box_name">Рассрочка и онлайн оплата</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico5.jpg">
+                    <div class="box_name">Доставка документов</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+            <div class="tarif_box">
+                <div class="box_title">
+                    <img alt="box_icon" src="./images/box_ico6.jpg">
+                    <div class="box_name">Общайтесь как Вам удобно</div>
+                </div>
+                <div class="box_content">
+                    <p>Учитесь в любое удобное
+                        время. Получайте знания
+                        находясь дома, на работе
+                        или в поездке. Система
+                        обучения открыта 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tariflar end -->
+
+<!--------------------------------------------------------->
+
+<!-- low price section start  -->
+<div class="low_section">
+    <div class="low_container">
+        <div class="low_row_1">
+            <div class="low_title">Low price</div>
+        </div>
+        <div class="low_row_2">
+            <p class="low_detail">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiusmod tempor
+                incididunt ut labore et.
+            </p>
+            <button class="button show_detail">Смотреть больше</button>
+        </div>
+        <div class="low_row_3">
             <div class="row kurses_bottom">
                 <div class="slide">
                     <!-- Slider main container -->
@@ -103,14 +337,15 @@
                             <div class="swiper-slide">
                                 <div class="lesson">
                                     <div class="lesson_img">
-                                        <img src="./images/lesson_img_1.jpg" alt="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_1.jpg">
                                     </div>
                                     <div class="lesson_info">
                                         <p class="lesson_title">Педагогика</p>
                                         <div class="lesson_text">
                                             Педагог высшего образования
                                             по программам подготовки
-                                            кадров высшей квалификации</div>
+                                            кадров высшей квалификации
+                                        </div>
                                         <div class="lesson_bottom">
                                             <!-- <i></i> -->
                                             <span>от 250 ак. ч.</span>
@@ -122,14 +357,15 @@
                             <div class="swiper-slide">
                                 <div class="lesson">
                                     <div class="lesson_img">
-                                        <img src="./images/lesson_img_2.jpg" alt="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_2.jpg">
                                     </div>
                                     <div class="lesson_info">
                                         <p class="lesson_title">Медицина</p>
                                         <div class="lesson_text">
                                             Педагог высшего образования
                                             по программам подготовки
-                                            кадров высшей квалификации</div>
+                                            кадров высшей квалификации
+                                        </div>
                                         <div class="lesson_bottom">
                                             <!-- <i></i> -->
                                             <span class="lesson_time">от 250 ак. ч.</span>
@@ -141,14 +377,15 @@
                             <div class="swiper-slide">
                                 <div class="lesson">
                                     <div class="lesson_img">
-                                        <img src="./images/lesson_img_3.jpg" alt="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_3.jpg">
                                     </div>
                                     <div class="lesson_info">
                                         <p class="lesson_title">Юриспруденция</p>
                                         <div class="lesson_text">
                                             Педагог высшего образования
                                             по программам подготовки
-                                            кадров высшей квалификации</div>
+                                            кадров высшей квалификации
+                                        </div>
                                         <div class="lesson_bottom">
                                             <!-- <i></i> -->
                                             <span>от 250 ак. ч.</span>
@@ -160,14 +397,15 @@
                             <div class="swiper-slide">
                                 <div class="lesson">
                                     <div class="lesson_img">
-                                        <img src="./images/lesson_img_1.jpg" alt="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_1.jpg">
                                     </div>
                                     <div class="lesson_info">
                                         <p class="lesson_title">Педагогика</p>
                                         <div class="lesson_text">
                                             Педагог высшего образования
                                             по программам подготовки
-                                            кадров высшей квалификации</div>
+                                            кадров высшей квалификации
+                                        </div>
                                         <div class="lesson_bottom">
                                             <!-- <i></i> -->
                                             <span>от 250 ак. ч.</span>
@@ -179,14 +417,15 @@
                             <div class="swiper-slide">
                                 <div class="lesson">
                                     <div class="lesson_img">
-                                        <img src="./images/lesson_img_2.jpg" alt="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_2.jpg">
                                     </div>
                                     <div class="lesson_info">
                                         <p class="lesson_title">Бизнес</p>
                                         <div class="lesson_text">
                                             Педагог высшего образования
                                             по программам подготовки
-                                            кадров высшей квалификации</div>
+                                            кадров высшей квалификации
+                                        </div>
                                         <div class="lesson_bottom">
                                             <!-- <i></i> -->
                                             <span>от 250 ак. ч.</span>
@@ -195,11 +434,9 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
-
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -208,296 +445,244 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
-    <!-- Curces end -->
+</div>
+<!-- low price section end  -->
 
-    <!--------------------------------------------------------->
+<!--------------------------------------------------------->
 
-    <!-- tariflar start -->
-    <div class="tarif_section">
-        <div class="tarif_container">
-            <div class="tarif_title">
-                <h3>Преимущества УДПО</h3>
-            </div>
-            <div class="tarif_tariflar">
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico1.jpg" alt="box_icon">
-                        <div class="box_name">Онлайн-обучение</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico2.jpg" alt="box_icon">
-                        <div class="box_name">Сами подготовим все документыs</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico3.jpg" alt="box_icon">
-                        <div class="box_name">Ускоренное обучение</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico4.jpg" alt="box_icon">
-                        <div class="box_name">Рассрочка и онлайн оплата</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico5.jpg" alt="box_icon">
-                        <div class="box_name">Доставка документов</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-                <div class="tarif_box">
-                    <div class="box_title">
-                        <img src="./images/box_ico6.jpg" alt="box_icon">
-                        <div class="box_name">Общайтесь как Вам удобно</div>
-                    </div>
-                    <div class="box_content">
-                        <p>Учитесь в любое удобное
-                            время. Получайте знания
-                            находясь дома, на работе
-                            или в поездке. Система
-                            обучения открыта 24/7.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- tariflar end -->
-
-    <!--------------------------------------------------------->
-
-    <!-- low price section start  -->
-    <div class="low_section">
-        <div class="low_container">
-            <div class="low_row_1">
-                <div class="low_title">Low price</div>
-            </div>
-            <div class="low_row_2">
-                <p class="low_detail">Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit,
-                    sed do eiusmod tempor
-                    incididunt ut labore et.
-                </p>
-                <button class="button show_detail">Смотреть больше</button>
-            </div>
-            <div class="low_row_3">
-                <div class="row kurses_bottom">
-                    <div class="slide">
-                        <!-- Slider main container -->
-                        <div class="swiper">
-                            <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_1.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Педагогика</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
+<!-- lexvid section start  -->
+<div class="lexvid_section">
+    <div class="lex_container">
+        <div class="lex_boxes">
+            <div class="slide">
+                <!-- Slider main container -->
+                <div class="swiper swiper_udo">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="col col_1">
+                                <div class="col_title">Видеолекции</div>
+                                <div class="col_matn">
+                                    Lorem ipsum dolor sit
+                                    amet consectetur adipiscing
+                                    elit sed do eiusmod tempor
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_2.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Медицина</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span class="lesson_time">от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_3.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Юриспруденция</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_1.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Педагогика</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_2.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Бизнес</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <button class="button col_button">Смотреть все</button>
+                            </div>
+                            <div class="col col_2">
+                                <div class="video_box">
+                                    <video controls="controls" height="310" poster="./images/pos.png"
+                                           src="./videos/v1.mp4" width="570">Video
+                                    </video>
                                 </div>
                             </div>
-                            <!-- If we need pagination -->
-                            <div class="swiper-pagination"></div>
-                            <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col col_1">
+                                <div class="col_title">Видеолекции</div>
+                                <div class="col_matn">
+                                    Lorem ipsum dolor sit
+                                    amet consectetur adipiscing
+                                    elit sed do eiusmod tempor
+                                </div>
+                                <button class="button col_button">Смотреть все</button>
+                            </div>
+                            <div class="col col_2">
+                                <div class="video_box">
+                                    <video controls="controls" height="310" poster="./images/pos.png"
+                                           src="./videos/v1.mp4" width="570">Video
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col col_1">
+                                <div class="col_title">Видеолекции</div>
+                                <div class="col_matn">
+                                    Lorem ipsum dolor sit
+                                    amet consectetur adipiscing
+                                    elit sed do eiusmod tempor
+                                </div>
+                                <button class="button col_button">Смотреть все</button>
+                            </div>
+                            <div class="col col_2">
+                                <div class="video_box">
+                                    <video controls="controls" height="310" poster="./images/pos.png"
+                                           src="./videos/v1.mp4" width="570">Video
+                                    </video>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- low price section end  -->
+</div>
+<!-- lexvid section end  -->
 
-    <!--------------------------------------------------------->
+<!--------------------------------------------------------->
 
-    <!-- lexvid section start  -->
-    <div class="lexvid_section">
-        <div class="lex_container">
-            <div class="lex_boxes">
+<!-- udo section start  -->
+<div class="udo_section">
+    <div class="udo_container">
+        <div class="col udo_col_1">
+            <div class="udotext_title">Мы уладили все формальности</div>
+            <div class="udo_texts">
+                <div class="udo_box">
+                    <div class="ubox_t">Официальные документы</div>
+                    <p class="u_text">
+                        Дистанционные курсы по педагогике
+                        высшего, средне-профессионального, школьного
+                        и дошкольгого образования.</p>
+                </div>
+                <div class="udo_box">
+                    <div class="ubox_t">Баллы НМО для медиков</div>
+                    <p class="u_text">
+                        Потрясающие всеобемлющие курсы для
+                        психологов работающих в любом направлении.</p>
+                </div>
+                <div class="udo_box">
+                    <div class="ubox_t">Подключены к ФИС ФРДО</div>
+                    <p class="u_text">
+                        Курсы для врачей и младшего медицинского
+                        персонала. Начисляем баллы НМО.</p>
+                </div>
+                <div class="udo_box">
+                    <div class="ubox_t">Налоговый вычет</div>
+                    <p class="u_text">
+                        На факультете доступны кафедры
+                        Уголовного, гражданского и
+                        административного права.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col udo_col_2">
+            <img alt="udo_img" class="udo_img" src="./images/udo_img.jpg">
+        </div>
+    </div>
+</div>
+<!-- udo section end  -->
+
+<!-- ------------------------------------------------------>
+<!-- popu section start  -->
+<div class="low_section">
+    <div class="popu_container">
+        <div class="popu_row_1">
+            <div class="low_title">Популярные программы</div>
+            <button class="button show_detail_popu">Смотреть больше</button>
+        </div>
+        <div class="popu_row_3">
+            <div class="row kurses_bottom">
                 <div class="slide">
                     <!-- Slider main container -->
-                    <div class="swiper swiper_udo">
+                    <div class="swiper">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="col col_1">
-                                    <div class="col_title">Видеолекции</div>
-                                    <div class="col_matn">
-                                        Lorem ipsum dolor sit
-                                        amet consectetur adipiscing
-                                        elit sed do eiusmod tempor
+                                <div class="lesson">
+                                    <div class="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_1.jpg">
                                     </div>
-                                    <button class="button col_button">Смотреть все</button>
-                                </div>
-                                <div class="col col_2">
-                                    <div class="video_box">
-                                        <video src="./videos/v1.mp4" controls="controls" poster="./images/pos.png"
-                                            width="570" height="310">Video</video>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="col col_1">
-                                    <div class="col_title">Видеолекции</div>
-                                    <div class="col_matn">
-                                        Lorem ipsum dolor sit
-                                        amet consectetur adipiscing
-                                        elit sed do eiusmod tempor
-                                    </div>
-                                    <button class="button col_button">Смотреть все</button>
-                                </div>
-                                <div class="col col_2">
-                                    <div class="video_box">
-                                        <video src="./videos/v1.mp4" controls="controls" poster="./images/pos.png"
-                                            width="570" height="310">Video</video>
+                                    <div class="lesson_info">
+                                        <p class="lesson_title">Педагогика</p>
+                                        <div class="lesson_text">
+                                            Педагог высшего образования
+                                            по программам подготовки
+                                            кадров высшей квалификации
+                                        </div>
+                                        <div class="lesson_bottom">
+                                            <!-- <i></i> -->
+                                            <span>от 250 ак. ч.</span>
+                                            <button class="bottom_button">Подробнее</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="col col_1">
-                                    <div class="col_title">Видеолекции</div>
-                                    <div class="col_matn">
-                                        Lorem ipsum dolor sit
-                                        amet consectetur adipiscing
-                                        elit sed do eiusmod tempor
+                                <div class="lesson">
+                                    <div class="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_2.jpg">
                                     </div>
-                                    <button class="button col_button">Смотреть все</button>
+                                    <div class="lesson_info">
+                                        <p class="lesson_title">Медицина</p>
+                                        <div class="lesson_text">
+                                            Педагог высшего образования
+                                            по программам подготовки
+                                            кадров высшей квалификации
+                                        </div>
+                                        <div class="lesson_bottom">
+                                            <!-- <i></i> -->
+                                            <span class="lesson_time">от 250 ак. ч.</span>
+                                            <button class="bottom_button">Подробнее</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col col_2">
-                                    <div class="video_box">
-                                        <video src="./videos/v1.mp4" controls="controls" poster="./images/pos.png"
-                                            width="570" height="310">Video</video>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lesson">
+                                    <div class="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_3.jpg">
+                                    </div>
+                                    <div class="lesson_info">
+                                        <p class="lesson_title">Юриспруденция</p>
+                                        <div class="lesson_text">
+                                            Педагог высшего образования
+                                            по программам подготовки
+                                            кадров высшей квалификации
+                                        </div>
+                                        <div class="lesson_bottom">
+                                            <!-- <i></i> -->
+                                            <span>от 250 ак. ч.</span>
+                                            <button class="bottom_button">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lesson">
+                                    <div class="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_1.jpg">
+                                    </div>
+                                    <div class="lesson_info">
+                                        <p class="lesson_title">Педагогика</p>
+                                        <div class="lesson_text">
+                                            Педагог высшего образования
+                                            по программам подготовки
+                                            кадров высшей квалификации
+                                        </div>
+                                        <div class="lesson_bottom">
+                                            <!-- <i></i> -->
+                                            <span>от 250 ак. ч.</span>
+                                            <button class="bottom_button">Подробнее</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lesson">
+                                    <div class="lesson_img">
+                                        <img alt="lesson_img" src="./images/lesson_img_2.jpg">
+                                    </div>
+                                    <div class="lesson_info">
+                                        <p class="lesson_title">Бизнес</p>
+                                        <div class="lesson_text">
+                                            Педагог высшего образования
+                                            по программам подготовки
+                                            кадров высшей квалификации
+                                        </div>
+                                        <div class="lesson_bottom">
+                                            <!-- <i></i> -->
+                                            <span>от 250 ак. ч.</span>
+                                            <button class="bottom_button">Подробнее</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -512,299 +697,138 @@
             </div>
         </div>
     </div>
-    <!-- lexvid section end  -->
+</div>
+<!-- popu section end  -->
 
-    <!--------------------------------------------------------->
+<!-- ------------------------------------------------------>
 
-    <!-- udo section start  -->
-    <div class="udo_section">
-        <div class="udo_container">
-            <div class="col udo_col_1">
-                <div class="udotext_title">Мы уладили все формальности</div>
-                <div class="udo_texts">
-                    <div class="udo_box">
-                        <div class="ubox_t">Официальные документы</div>
-                        <p class="u_text">
-                            Дистанционные курсы по педагогике
-                            высшего, средне-профессионального, школьного
-                            и дошкольгого образования.</p>
-                    </div>
-                    <div class="udo_box">
-                        <div class="ubox_t">Баллы НМО для медиков</div>
-                        <p class="u_text">
-                            Потрясающие всеобемлющие курсы для
-                            психологов работающих в любом направлении.</p>
-                    </div>
-                    <div class="udo_box">
-                        <div class="ubox_t">Подключены к ФИС ФРДО</div>
-                        <p class="u_text">
-                            Курсы для врачей и младшего медицинского
-                            персонала. Начисляем баллы НМО.</p>
-                    </div>
-                    <div class="udo_box">
-                        <div class="ubox_t">Налоговый вычет</div>
-                        <p class="u_text">
-                            На факультете доступны кафедры
-                            Уголовного, гражданского и
-                            административного права.</p>
-                    </div>
-                </div>
+<!-- chen_less section start  -->
+<div class="chen_less_section">
+    <div class="chen_less_container">
+        <div class="chen_less_col">
+            <div class="ch_col_1">
+                <h3>Обучение за счёт вашей компании.</h3>
+                <p>У нас действует 2 вида договора на
+                    обучение.По одному вы оплачиваете сами.
+                    А второй предлагает оплатить обучение
+                    за счёт вашей компаниllkkkkkjj
+                </p>
+                <button class="button ch_less_btn">Выбрать курс</button>
             </div>
-            <div class="col udo_col_2">
-                <img src="./images/udo_img.jpg" alt="udo_img" class="udo_img">
+            <div class="ch_col_2">
+                <img alt="" src="./images/ch_less.jpg">
             </div>
         </div>
     </div>
-    <!-- udo section end  -->
+</div>
+<!-- chen_less section end  -->
 
-    <!-- ------------------------------------------------------>
-    <!-- popu section start  -->
-    <div class="low_section">
-        <div class="popu_container">
-            <div class="popu_row_1">
-                <div class="low_title">Популярные программы</div>
-                <button class="button show_detail_popu">Смотреть больше</button>
+
+<!-- ------------------------------------------------------>
+
+<!-- mens section start  -->
+<div class="mens_section">
+    <div class="mens_container">
+        <h2 class="mens_title">Наши менеджеры</h2>
+        <p class="mens_info">
+            На сайте работают менеджеры, которым вы
+            можете задать свои вопросы.
+        </p>
+        <div class="m_box_1 box">
+            <div class="box_con">
+                <img alt="" src="./images/m_b_img.png">
+                <div class="b_tit">Менеджер_1</div>
+                <div class="b_inf">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </div>
+                <button class="b_btn">Обратиться</button>
+                <div class="b_icons">
+                    <i class="fa-brands fa-vk"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-viber"></i>
+                </div>
             </div>
-            <div class="popu_row_3">
-                <div class="row kurses_bottom">
-                    <div class="slide">
-                        <!-- Slider main container -->
-                        <div class="swiper">
-                            <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_1.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Педагогика</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_2.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Медицина</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span class="lesson_time">от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_3.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Юриспруденция</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_1.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Педагогика</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="lesson">
-                                        <div class="lesson_img">
-                                            <img src="./images/lesson_img_2.jpg" alt="lesson_img">
-                                        </div>
-                                        <div class="lesson_info">
-                                            <p class="lesson_title">Бизнес</p>
-                                            <div class="lesson_text">
-                                                Педагог высшего образования
-                                                по программам подготовки
-                                                кадров высшей квалификации</div>
-                                            <div class="lesson_bottom">
-                                                <!-- <i></i> -->
-                                                <span>от 250 ак. ч.</span>
-                                                <button class="bottom_button">Подробнее</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- If we need pagination -->
-                            <div class="swiper-pagination"></div>
-                            <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>
-                    </div>
+        </div>
+        <div class="m_box_2 box">
+            <div class="box_con">
+                <img alt="" src="./images/m_b_img.png">
+                <div class="b_tit">Менеджер_2</div>
+                <div class="b_inf">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </div>
+                <button class="b_btn">Обратиться</button>
+                <div class="b_icons">
+                    <i class="fa-brands fa-vk"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-viber"></i>
+                </div>
+            </div>
+        </div>
+        <div class="m_box_3 box">
+            <div class="box_con">
+                <img alt="" src="./images/m_b_img.png">
+                <div class="b_tit">Менеджер_3</div>
+                <div class="b_inf">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor.
+                </div>
+                <button class="b_btn">Обратиться</button>
+                <div class="b_icons">
+                    <i class="fa-brands fa-vk"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-viber"></i>
                 </div>
             </div>
         </div>
     </div>
-    <!-- popu section end  -->
+</div>
+<!-- mens section end  -->
 
-    <!-- ------------------------------------------------------>
+<!-- ------------------------------------------------------>
 
-    <!-- chen_less section start  -->
-    <div class="chen_less_section">
-        <div class="chen_less_container">
-            <div class="chen_less_col">
-                <div class="ch_col_1">
-                    <h3>Обучение за счёт вашей компании.</h3>
-                    <p>У нас действует 2 вида договора на
-                        обучение.По одному вы оплачиваете сами.
-                        А второй предлагает оплатить обучение
-                        за счёт вашей компаниllkkkkkjj
-                    </p>
-                    <button class="button ch_less_btn">Выбрать курс</button>
-                </div>
-                <div class="ch_col_2">
-                    <img src="./images/ch_less.jpg" alt="">
-                </div>
+<!-- lise_section start  -->
+<div class="lise_section">
+    <div class="lise_container">
+        <div class="lise_col">
+            <div class="lise_col_1">
+                <h3>Обучение за счёт вашей компании.</h3>
+                <p>Лицензия на осуществление образовательной деятельности №7536 от 16 ноября 2020 года выдана ООО
+                    "Университет дополнительного профессионального образования".
+
+                    Лицензия дает право на осуществление образовательной деятельности по любым программам
+                    дополнительного профессионального образования и выдачу документов установленного образца.
+
+                    Лицензия выдана бессрочно и без дополнительных ограничений.
+                    Вы можете проверить лицинзию, с помощью специального сервиса Рособрнадзора, позволяющего получить
+                    информацию из сводного реестра лицензий. Для этого, достаточно просто указать номер лицензии - 7536
+                    в соответствующее поле формы.
+                </p>
+                <button class="button lise_btn">Выбрать курс</button>
+            </div>
+            <div class="lise_col_2">
+                <img alt="" src="./images/ch_less.jpg">
             </div>
         </div>
     </div>
-    <!-- chen_less section end  -->
+</div>
+<!-- lise_section END  -->
 
-
-    <!-- ------------------------------------------------------>
-
-    <!-- mens section start  -->
-    <div class="mens_section">
-        <div class="mens_container">
-            <h2 class="mens_title">Наши менеджеры</h2>
-            <p class="mens_info">
-                На сайте работают менеджеры, которым вы
-                можете задать свои вопросы.
-            </p>
-            <div class="m_box_1 box">
-                <div class="box_con">
-                    <img src="./images/m_b_img.png" alt="">
-                    <div class="b_tit">Менеджер_1</div>
-                    <div class="b_inf">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor.
-                    </div>
-                    <button class="b_btn">Обратиться</button>
-                    <div class="b_icons">
-                        <i class="fa-brands fa-vk"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-telegram"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-brands fa-viber"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="m_box_2 box">
-                <div class="box_con">
-                    <img src="./images/m_b_img.png" alt="">
-                    <div class="b_tit">Менеджер_2</div>
-                    <div class="b_inf">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor.
-                    </div>
-                    <button class="b_btn">Обратиться</button>
-                    <div class="b_icons">
-                        <i class="fa-brands fa-vk"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-telegram"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-brands fa-viber"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="m_box_3 box">
-                <div class="box_con">
-                    <img src="./images/m_b_img.png" alt="">
-                    <div class="b_tit">Менеджер_3</div>
-                    <div class="b_inf">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit,
-                        sed do eiusmod tempor.
-                    </div>
-                    <button class="b_btn">Обратиться</button>
-                    <div class="b_icons">
-                        <i class="fa-brands fa-vk"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-telegram"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-brands fa-viber"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- mens section end  -->
-
-    <!-- ------------------------------------------------------>
-
-    <!-- lise_section start  -->
-    <div class="lise_section">
-        <div class="lise_container">
-            <div class="lise_col">
-                <div class="lise_col_1">
-                    <h3>Обучение за счёт вашей компании.</h3>
-                    <p>У нас действует 2 вида договора на
-                        обучение.По одному вы оплачиваете сами.
-                        А второй предлагает оплатить обучение
-                        за счёт вашей компаниllkkkkkjj
-                    </p>
-                    <button class="button lise_btn">Выбрать курс</button>
-                </div>
-                <div class="lise_col_2">
-                    <img src="./images/ch_less.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- lise_section END  -->
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./components/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./components/main.js"></script>
 </body>
 
 </html>

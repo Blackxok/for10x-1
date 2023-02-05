@@ -58,7 +58,7 @@ body {
     font-size: 15px;
 }
 
-.nav-menu>* {
+.nav-menu > * {
     margin-left: 30px;
     cursor: pointer;
 }
@@ -198,7 +198,7 @@ body {
     grid-template: 1fr 1fr/ 1fr 1fr 1fr;
 }
 
-.show_num>* {
+.show_num > * {
     text-align: center;
 }
 
@@ -219,7 +219,8 @@ body {
 /* -------------------------------------------
               KURCEC SECTION    START           
 ---------------------------------------------- */
-.kurses_container {                                                                                                  margin-top: 100px;
+.kurses_container {
+    margin-top: 100px;
     padding: 50px 130px;
 }
 
@@ -715,7 +716,8 @@ body {
     background: var(--blue);
 }
 
-.ch_col_2 {}
+.ch_col_2 {
+}
 
 .ch_col_2 img {
     width: 470px;
@@ -832,7 +834,7 @@ body {
 
 .lise_section {
     width: 100%;
-    height: 500px;
+    height: min-content;
     background: var(--oq);
 }
 
@@ -857,11 +859,11 @@ body {
     line-height: 130%;
 }
 
-.lise_col_1 p {
+.lise_col_1 .lise_info {
     width: 80%;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 140%;
     margin-bottom: 60px;
 }
@@ -873,8 +875,8 @@ body {
 /*.l_col_2 {}*/
 
 .lise_col_2 img {
-    width: 470px;
-    height: 400px;
+    width: 387px;
+    height: 573px;
 }
 
 /* -------------------------------------------

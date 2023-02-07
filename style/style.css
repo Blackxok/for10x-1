@@ -910,24 +910,20 @@ body {
     position: relative;
 }
 
-.blog_row_3 .lesson_img::before {
-    content: "";
-    background-image: url(../images/top_ico.jpg);
-    background-size: 100% 100%;
-    display: inline-block;
-    height: 25px;
-    width: 90px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    border-radius: 7px;
-    padding: 5px;
-    z-index: 2;
+.blog_img img {
+    border-radius: 0 !important;
+}
+
+.blog_slide {
+    border: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.00);
+}
+
+.blog_info {
+    padding: 20px 0;
 }
 
 .person_info {
-    /* width: 100%; */
-    border: 2px solid red;
     display: flex;
     align-items: center;
 }
@@ -941,6 +937,14 @@ body {
 .person_img {
     transform: translateY(5px);
 }
+
+.blog_b {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* .blog_info {
+} */
 
 .per_name {
     flex: 0 1 100%;

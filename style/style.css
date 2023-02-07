@@ -624,7 +624,7 @@ body {
 }
 
 .show_detail_popu {
-    text-align: end;
+    text-align: center;
     border: none;
     padding: 18px;
     background: var(--blue);
@@ -865,6 +865,12 @@ body {
 /* -------------------------------------------
               BLOG SECTION START
 ---------------------------------------------- */
+.blog_section {
+    width: 100%;
+    height: min-content;
+    background: var(--oq);
+}
+
 .blog_container {
     padding: 50px 110px;
 }
@@ -893,7 +899,7 @@ body {
 }
 
 .show_detail_blog {
-    text-align: end;
+    text-align: center;
     border: none;
     padding: 18px;
     background: var(--blue);

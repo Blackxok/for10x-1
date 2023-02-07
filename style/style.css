@@ -926,6 +926,32 @@ body {
     z-index: 2;
 }
 
+.person_info {
+    /* width: 100%; */
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person_detail {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.per_name {
+    flex: 0 1 100%;
+}
+
+.per_date {
+    flex: 0 1 50%;
+}
+
+.per_views {
+    flex: 0 1 50%;
+}
+
 /* -------------------------------------------
                   BLOG SECTION END
     ---------------------------------------------- */

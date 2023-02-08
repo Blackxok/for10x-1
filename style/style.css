@@ -1015,13 +1015,13 @@ body {
 .question {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid green;
-    height: 30px;
-    overflow: hidden;
+    border: 5px solid green;
+    /* height: 50px; */
+    /* overflow: hidden; */
 }
 
 .q_title {
-    flex: 0 1 50%;
+    flex: 0 1 90%;
     border: 2px solid red;
     font-style: normal;
     font-weight: 600;
@@ -1029,10 +1029,17 @@ body {
 }
 
 .popup {
-    flex: 0 1 50%;
-    font-size: 20px;
+    flex: 0 1 10%;
+    font-size: 40px;
     border: 2px solid royalblue;
     text-align: end;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup.active {
+    transform: rotate(45deg);
 }
 
 .answer {
@@ -1043,6 +1050,11 @@ body {
     font-size: 17px;
     line-height: 140%;
     border: 2px solid goldenrod;
+    display: none;
+}
+
+.answer.active {
+    display: block;
 }
 
 /* -------------------------------------------

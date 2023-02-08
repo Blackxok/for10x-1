@@ -64,3 +64,29 @@ new Swiper(".swiper_udo", {
 });
 
 // -----------------------------------------
+
+// for popup section popups
+// const popups = document.querySelectorAll(".popup");
+// popups.forEach((popup) => {
+//     popup.addEventListener("click", (e) => {
+//         e.preventDefault();
+//         popup.classList.toggle("active");
+//     });
+// });
+const pop = document.querySelector(".popup");
+const answer = document.querySelector(".answer");
+
+pop.addEventListener("click", (e) => {
+    e.preventDefault();
+    answer.classList.toggle("active");
+    pop.classList.toggle("active");
+    // let plus = () => {
+    //     if (pop.classList.contains("active")) {
+    //         console.log("yes");
+
+    //     }
+    // };
+    // plus();
+
+});
+

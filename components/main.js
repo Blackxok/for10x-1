@@ -64,29 +64,13 @@ new Swiper(".swiper_udo", {
 });
 
 // -----------------------------------------
+const pop = document.querySelectorAll(".popup");
+const answer = document.querySelectorAll(".answer");
 
-// for popup section popups
-// const popups = document.querySelectorAll(".popup");
-// popups.forEach((popup) => {
-//     popup.addEventListener("click", (e) => {
-//         e.preventDefault();
-//         popup.classList.toggle("active");
-//     });
-// });
-const pop = document.querySelector(".popup");
-const answer = document.querySelector(".answer");
-
-pop.addEventListener("click", (e) => {
-    e.preventDefault();
-    answer.classList.toggle("active");
-    pop.classList.toggle("active");
-    // let plus = () => {
-    //     if (pop.classList.contains("active")) {
-    //         console.log("yes");
-
-    //     }
-    // };
-    // plus();
-
-});
+for (let i = 0; i < pop.length; i++) {
+    pop[i].addEventListener("click", (e) => {
+        pop[i].classList.toggle("active");
+        answer[i].classList.toggle("active");
+    });
+}
 

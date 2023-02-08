@@ -982,12 +982,11 @@ body {
 ---------------------------------------------- */
 .ques_section {
     width: 100%;
-    height: min-content;
+    height: 640px;
 }
 
 .ques_container {
     padding: 50px 110px;
-
 }
 
 .title {
@@ -995,6 +994,8 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 130%;
+    margin: 60px 0;
+
 }
 
 .col_ques {
@@ -1005,24 +1006,28 @@ body {
 
 .col_1,
 .col_2 {
-    border: 5px solid black;
     display: flex;
     flex-direction: column;
+    position: relative;
+    width: 45%;
+    height: 302px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
 }
-
-/* .col_1 {} */
 
 .question {
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid green;
-    /* height: 50px; */
-    /* overflow: hidden; */
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding: 10px 0;
+    /* height: 70px; */
 }
 
 .q_title {
     flex: 0 1 90%;
-    border: 2px solid red;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -1030,8 +1035,8 @@ body {
 
 .popup {
     flex: 0 1 10%;
-    font-size: 40px;
-    border: 2px solid royalblue;
+    font-size: 50px;
+    font-weight: 200;
     text-align: end;
     text-align: center;
     cursor: pointer;
@@ -1049,7 +1054,6 @@ body {
     font-weight: 400;
     font-size: 17px;
     line-height: 140%;
-    border: 2px solid goldenrod;
     display: none;
 }
 

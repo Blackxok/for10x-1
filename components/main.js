@@ -64,6 +64,7 @@ new Swiper(".swiper_udo", {
 });
 
 // -----------------------------------------
+// que section >> question dropdown
 const pop = document.querySelectorAll(".popup");
 const answer = document.querySelectorAll(".answer");
 
@@ -74,3 +75,17 @@ for (let i = 0; i < pop.length; i++) {
     });
 }
 
+// -----------------------------------------
+// for section >> dropdown
+const figur = document.querySelector(".figur");
+const selected = document.querySelector(".selected");
+const menu = document.querySelector(".menu");
+
+
+// figure toggle
+figur.addEventListener("click", (e) => {
+    figur.classList.toggle("active");
+    menu.classList.toggle("active");
+});
+
+// menu toggle

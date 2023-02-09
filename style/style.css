@@ -1105,6 +1105,16 @@ body {
     padding: 40px 60px;
 }
 
+.form_row {
+    border-bottom: 2px solid var(--passive);
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px 0;
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+}
+
 .select {
     border-bottom: 2px solid var(--passive);
     display: flex;
@@ -1112,6 +1122,7 @@ body {
     justify-content: space-between;
     font-size: 20px;
     padding: 3px 5px;
+    margin-bottom: 8px;
 }
 
 .selected.passive {
@@ -1155,6 +1166,55 @@ body {
     color: #777777;
 }
 
+.form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--passive);
+}
+
+input[class="form_row name"]:focus {
+    outline: none;
+}
+
+.form input::placeholder {
+    color: var(--passive);
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.check_ {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ch_box {
+    flex: 0 1 5%;
+    width: 23px;
+    height: 24px;
+}
+
+.ch_text {
+    flex: 0 1 95%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    padding-left: 10px;
+    color: #a9a9a9;
+}
+
+.form_btn {
+    color: var(--oq);
+    background: var(--blue);
+    width: 450px;
+    height: 60px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
 
 /* -------------------------------------------
               FORM SECTION END

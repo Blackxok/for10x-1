@@ -4,6 +4,7 @@
     --oq: #ffffff;
     --blue: #3d8be4;
     --bigBg: #f6f8f9;
+    --passive: #E5E5E5;
     /* shadow */
     --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --ff_1: "Open Sans", sans-serif;
@@ -1074,7 +1075,6 @@ body {
 .form_section {
     width: 100%;
     height: 610px;
-    border: 10px solid red;
 }
 
 .form_container {
@@ -1099,28 +1099,40 @@ body {
     width: 570px;
     height: 440px;
     background: #FFFFFF;
-    border: 1px solid #E5E5E5;
+    border: 1px solid var(--passive);
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     padding: 40px 60px;
 }
 
-.dropdown {
-    border: 5px solid gold;
-}
-
 .select {
-    border: 3px solid firebrick;
+    border-bottom: 2px solid var(--passive);
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
     padding: 3px 5px;
+}
 
+.selected.passive {
+    color: var(--passive);
+}
+
+.figur {
+    user-select: none;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    transition: 0.2s linear;
+    color: #a9a9a9;
+}
+
+.figur.active {
+    transform: rotate(90deg);
+    transition: 0.2s linear;
 }
 
 .menu {
-    border: 1px solid forestgreen;
     display: none;
 }
 
@@ -1129,24 +1141,20 @@ body {
 }
 
 .menu * {
-    border-bottom: 1px solid rgb(139, 139, 139);
+    border-bottom: 1px solid var(--passive);
     list-style: none;
+    cursor: pointer;
+    padding: 5px;
 }
 
-.active {}
-
-.figur {
-    user-select: none;
-    font-size: 30px;
-    padding: 0;
-    margin: 0;
-    transition: 0.2s linear;
+.menu *:hover {
+    transform: scale(1.05);
 }
 
-.figur.active {
-    transform: rotate(90deg);
-    transition: 0.2s linear;
+.gr_li {
+    color: #777777;
 }
+
 
 /* -------------------------------------------
               FORM SECTION END

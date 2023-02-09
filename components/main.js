@@ -80,7 +80,7 @@ for (let i = 0; i < pop.length; i++) {
 const figur = document.querySelector(".figur");
 const selected = document.querySelector(".selected");
 const menu = document.querySelector(".menu");
-
+const lis = document.querySelectorAll(".gr_li");
 
 // figure toggle
 figur.addEventListener("click", (e) => {
@@ -89,3 +89,11 @@ figur.addEventListener("click", (e) => {
 });
 
 // menu toggle
+for (let i = 0; i < lis.length; i++) {
+    lis[i].addEventListener("click", (e) => {
+        selected.innerHTML = e.target.innerHTML;
+        selected.classList.remove("passive");
+        figur.classList.remove("active");
+        menu.classList.remove("active");
+    });
+}

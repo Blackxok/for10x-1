@@ -4,7 +4,7 @@
     --oq: #ffffff;
     --blue: #3d8be4;
     --bigBg: #f6f8f9;
-    --passive: #E5E5E5;
+    --passive: #b0b0b0;
     /* shadow */
     --shadow1: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     --ff_1: "Open Sans", sans-serif;
@@ -1204,7 +1204,7 @@ input[class="form_row name"]:focus {
     font-size: 12px;
     line-height: 120%;
     padding-left: 10px;
-    color: #a9a9a9;
+    color: var(--passive);
 }
 
 .form_btn {

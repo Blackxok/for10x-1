@@ -1285,6 +1285,12 @@ input[class="form_row name"]:focus {
 
 .f_icons i {
     margin: 0 15px;
+    font-size: 21px;
+}
+
+.phone i,
+.sms i {
+    font-size: 18px;
 }
 
 /* -------------------------------------------

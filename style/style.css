@@ -1233,6 +1233,7 @@ input[class="form_row name"]:focus {
 
 .row {
     display: flex;
+    align-items: start;
     justify-content: space-between;
     border-top: 1px solid var(--passive);
     padding-top: 60px;

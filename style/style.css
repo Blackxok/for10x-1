@@ -1228,10 +1228,17 @@ input[class="form_row name"]:focus {
 }
 
 .foot_container {
-    display: flex;
-    justify-content: space-between;
     padding: 60px 110px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--passive);
+    padding-top: 60px;
+}
+
+
 
 .f_c_title {
     font-style: normal;
